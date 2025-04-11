@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colin Smith | Cloud Resume</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="z-top">
+    <div class="logo">Colin Smith</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="z-middle" id="about">
+    <div class="intro">
+      <h1>Cloud Security Enthusiast</h1>
+      <p>Microsoft Certified (AZ-900) | Passionate about Azure, cybersecurity, and automation. Completed the Cloud Resume Challenge showcasing real-world deployment using Azure services and CI/CD pipelines.</p>
+    </div>
+    <div class="hero-image">
+      <img src="https://via.placeholder.com/300x200" alt="Professional portrait" />
+    </div>
+  </section>
+
+  <section class="z-bottom" id="projects">
+    <div class="blog-preview">
+      <h2>Cloud Resume Challenge</h2>
+      <ul>
+        <li>Developed a resume site using HTML/CSS hosted on Azure Static Web Apps</li>
+        <li>Integrated Azure Functions + Table Storage for a serverless visitor counter</li>
+        <li>Configured custom DNS with HTTPS via Azure CDN</li>
+        <li>Used Bicep templates for infrastructure deployment</li>
+        <li>Established CI/CD with GitHub Actions for frontend/backend updates</li>
+      </ul>
+    </div>
+    <div class="blog-preview">
+      <h2>AZ-900 Core Concepts</h2>
+      <ul>
+        <li>Cloud concepts: IaaS, PaaS, SaaS, and shared responsibility model</li>
+        <li>Core Azure services: Compute, Networking, Storage, and Databases</li>
+        <li>Azure pricing, SLA, lifecycle, and management tools</li>
+        <li>Identity and governance: Azure AD, role-based access control (RBAC), and policies</li>
+        <li>Security, compliance, privacy, and trust principles</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="z-bottom" id="certifications">
+    <div>
+      <h2>Certifications</h2>
+      <p><strong>Microsoft Certified: Azure Fundamentals (AZ-900)</strong> – foundational understanding of Azure services, cloud concepts, and security.</p>
+      <p><strong>CompTIA Security+</strong> – demonstrates core cybersecurity knowledge and best practices.</p>
+    </div>
+  </section>
+
+  <section class="z-bottom" id="contact">
+    <div class="contact">
+      <h2>Cloud Security Learning Outcomes</h2>
+      <p>Developed practical skills in Azure AD, identity management, NSGs, RBAC, and secure resource configuration. Gained familiarity with Microsoft Sentinel, Defender for Cloud, and Azure Monitor. Built hands-on experience deploying secure, scalable, and monitored cloud applications using real Azure services.</p>
+      <p>Visitor Count: <span id="visitor-count">0</span></p>
+      <p>Email: colincreig@icloud.com</p>
+    </div>
+  </section>
+
+  <script src="counter.js"></script>
+</body>
+</html>
