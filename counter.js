@@ -3,4 +3,5 @@ document.addEventListener("DOMContentLoaded", () => {
   count++;
   localStorage.setItem("visitCount", count);
   document.getElementById("visitor-count").textContent = count;
+  
 });
